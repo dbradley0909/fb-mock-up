@@ -1,0 +1,435 @@
+@media (max-width: 1680px) {
+    body {
+      background-color: #efefef;
+      color: black;
+    }
+    .navContainer {
+      background-color: rgb(19, 19, 68);
+      border: solid #333C3F;
+      height: 52px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      /* position: fixed; */
+    }
+    .searching{
+     font-size: 20px;
+     border-radius: 20px;
+     background-color: white;
+     color:rgb(83, 77, 77);
+     border-width: .2px;
+      width: 150px;
+      height: 40px;
+      border-radius: 25px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+
+    .left {
+      width: 40%;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 3px;
+    }
+
+    .mid {
+      width: 40%;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 3px;
+    }
+
+    .right {
+      width: 40%;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 3px;
+    }
+    .nlTab {
+      background-image:url(images/fb.png);
+      border: solid red;
+      border-width: .2px;
+      width: 40px;
+      height: 40px;
+      border-radius: 25px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    .n2Tab {
+      background-image:url(images/sr.png);
+      border: solid red;
+      border-width: .2px;
+      width: 40px;
+      height: 40px;
+      border-radius: 25px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      }
+      .n3Tab {
+        background-image:url(images/menu.png);
+        border: solid red;
+        border-width: .2px;
+        width: 40px;
+        height: 40px;
+        border-radius: 25px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        }
+        .n4Tab{
+          background-image:url(images/facebook.png);
+        border: solid red;
+        border-width: .2px;
+        width: 40px;
+        height: 40px;
+        border-radius: 25px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        }
+        .n5Tab{
+        background-image:url(images/friend.png);
+        border: solid red;
+        border-width: .2px;
+        width: 40px;
+        height: 40px;
+        border-radius: 25px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        }
+        .n6Tab{
+          background-image:url(images/insta.png
+          );
+          border: solid red;
+          border-width: .2px;
+          width: 40px;
+          height: 40px;
+          border-radius: 25px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          }
+          .n7Tab{
+            background-image:url(images/twit.png
+            );
+            border: solid red;
+            border-width: .2px;
+            width: 40px;
+            height: 40px;
+            border-radius: 25px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            }
+            .n8Tab{
+              background-image:url(images/blk.png
+              );
+              border: solid red;
+              border-width: .2px;
+              width: 40px;
+              height: 40px;
+              border-radius: 25px;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              position: relative;
+              }
+              .n9Tab{
+                background-image:url(images/logout.png
+                );
+                border: solid red;
+                border-width: .2px;
+                width: 40px;
+                height: 40px;
+                border-radius: 25px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                }
+    .online{
+      position: relative;
+    }
+    .online::after{
+      content: '';
+      width: 7px;
+      height: 7px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      background: #41db51;
+      position: absolute;
+      top:0;
+      right: 0;
+    }
+
+    .mainContainer {
+      border: solid #333C3F;
+      height: 600vh;
+      display: flex;
+      justify-content: space-evenly;
+      border-width: .2px;
+    }
+
+    .leftBar {
+      border: solid #2d3537;
+      border-width: .2px;
+      width: 20%;
+      display: block;
+    }
+
+    .mainScrollContainer {
+      border: solid black;
+      border-width: .2px;
+      width: 60%;
+      display: block;
+    }
+    .rightBar {
+      border: solid #333C3F;
+      border-width: .2px;
+      width: 20%;
+      display: block;
+    }
+    .facbookImage{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding: 1.5%;
+        display:flex;
+        border-radius: 10%;
+    }
+    .searchImage{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding: 1.5%;
+        display:flex;
+        border-radius: 10%; 
+    } 
+        .icon1{
+         border-width: .4px;
+         width: 50px;
+         height: 50px;
+         border: 50px;
+         background-position: center;
+         background-size: cover;
+         position: relative;
+         background-repeat: no-repeat;
+         color: solid lightskyblue;
+        }
+        .icon2{
+          border-width: .4px;
+          width: 50px;
+          height: 50px;
+          border: 50px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          color: solid lightskyblue;
+         }
+         .icon3{
+          border-width: .4px;
+         width: 50px;
+         height: 50px;
+         border: 50px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          color: solid lightskyblue;
+         }
+         .icon4{
+          border-width: .4px;
+          width: 50px;
+          height: 50px;
+          border: 50px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          color: solid lightskyblue;
+         }
+         .style1{
+          color: blue;
+          border-bottom: 1px solid;
+         }
+         .style2{
+          color: blue;
+         }
+         .box{
+      width: 900px;
+      height: 100px;
+      border: 65px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      background: grey;
+      text-shadow: #2d3537;
+      font-size: large;
+      font-weight: bold;
+         }
+         .icon5{
+          width: 900px;
+          height: 500px;
+          border: 65px;
+          border-color: solid black;
+         }
+}
+
+  /*------- Desktop-------------------------- */
+  @media (max-width: 1280px) {
+    body {
+      background-color: black;
+      color: salmon;
+
+    }
+
+    .navContainer {
+      background-color: black;
+      border: solid #333C3F;
+      height: 52px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      /* position: fixed; */
+    }
+
+    .left {
+      width: 40%;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 3px;
+    }
+  
+    .mid {
+      width: 40%;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 3px;
+    }
+  
+    .right {
+      width: 40%;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 3px;
+    }
+  
+    .nlTab {
+      border: solid red;
+      border-width: .2px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+  
+    }
+  
+    .mainContainer {
+      border: solid black;
+      height: 600vh;
+      display: flex;
+      justify-content: space-evenly;
+      border-width: .2px;
+    }
+  
+    .leftBar {
+      border: solid #333C3F;
+      border-width: .2px;
+      width: 0%;
+      display: none;
+    }
+  
+    .mainScrollContainer {
+      border: solid #333C3F;
+      border-width: .2px;
+      width: 70%;
+      display: block;
+    }
+  
+    .rightBar {
+      border: solid #333C3F;
+      border-width: .2px;
+      width: 30%;
+      display: block;
+    
+    }
+  }
+
+  /* -------------Ipad----------------------- */
+  @media (max-width: 680px) {
+    body {
+      background-color: black;
+      color: white;
+    }
+    .navContainer {
+      background-color: black;
+      border: solid #333C3F;
+      height: 52px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      /* position: fixed; */
+    }
+    .left {
+      width: 40%;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 3px;
+    }
+  
+    .mid {
+      width: 40%;
+      display: none;
+      justify-content: space-evenly;
+      margin: 3px;
+    }
+
+    .right {
+      width: 40%;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 3px;
+    }
+  
+    .nlTab {
+      border: solid red;
+      border-width: .2px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+    .mainContainer {
+      border: solid #333C3F;
+      height: 600vh;
+      display: flex;
+      justify-content: space-evenly;
+      border-width: .2px;
+    }
+    .leftBar {
+      /* border: solid white; */
+      border-width: .2px;
+      width: 0%;
+      display: none;
+    }
+  
+    .mainScrollContainer {
+      padding-top:3vh;
+      border: solid black;
+      border-width: .2px;
+      width: 100%;
+      display: block;
+    }
+}
